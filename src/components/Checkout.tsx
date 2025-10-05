@@ -77,7 +77,7 @@ export const Checkout = ({ onConfirm, onBack }: CheckoutProps) => {
           </div>
 
           <Button 
-            onClick={onConfirm} 
+            onClick={() => window.location.href = 'https://go.perfectpay.com.br/PPU38CQ1LJK'} 
             variant="default" 
             size="xl" 
             className="w-full"
